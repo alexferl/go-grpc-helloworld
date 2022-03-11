@@ -28,11 +28,6 @@ var (
 	system           = "" // empty string represents the health of the system
 )
 
-func init() {
-	c := NewConfig()
-	c.BindFlags()
-}
-
 func Start() {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()

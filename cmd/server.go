@@ -8,6 +8,9 @@ import (
 )
 
 func main() {
+	c := go_grpc_helloworld.NewConfig()
+	c.BindFlags()
+
 	log.Info().Msgf("Starting environment: %s", viper.GetString("env-name"))
 	go_grpc_helloworld.Start()
 }
