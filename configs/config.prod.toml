@@ -1,0 +1,4 @@
+app-name = "go_grpc_helloworld"
+env-name = "prod"
+bind-address = "0.0.0.0"
+health-bind-address = "0.0.0.0"
