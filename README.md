@@ -42,7 +42,8 @@ Usage of ./server:
       --log-writer string        The log writer. Valid writers are: 'console' and 'json'. (default "console")
 ```
 
-### Docker container
+### Building & Running Docker container
 ```shell
+make build-docker
 make run-docker
 ```
